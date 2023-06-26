@@ -1,0 +1,134 @@
+/* body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px 0;
+}
+.row button{
+    font-size: 18px;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+    margin: 0 3px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.row{
+    margin: 4px 0;
+}
+.row input{
+    font-size: 20px;
+    padding: 6px 12px;
+    margin-bottom: 5pxs;
+    border-radius: 8px;
+} */
+/* CSS for Calculator */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #050505;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    flex-basis: 23%;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #383838;
+  }
+  
+  #value {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Additional styling for specific buttons */
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .btn.zero {
+    flex-basis: 70%;
+  }
+  
+  .btn.operator {
+    background-color: #f1f1f1;
+    color: #333333;
+  }
+  
+  .btn.operator:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .btn.equal {
+    background-color: #3f51b5;
+    color: #ffffff;
+  }
+  
+  .btn.equal:hover {
+    background-color: #2c3e99;
+  }
+  .btn.top{
+    background-color: darkgray;
+    color: #050505;
+  }
+  .btn.left{
+    background-color: rgb(255, 174, 0);
+    color: #ffffff;
+  }
+  .btn.left:hover{
+    background-color: rgb(255, 160, 0);
+  }
+  
+  .btn.clear:hover {
+    background-color: #e64a19;
+  }
+  
