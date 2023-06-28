@@ -89,8 +89,8 @@ const loadSong = (songs) => {
     img.src = "images/" + songs.name + ".jpg";
 }
 
+// Next Song
 songIndex = 0;
-
 const nextSong = () => {
     songIndex = (songIndex + 1) % songs.length;
     loadSong(songs[songIndex]);
